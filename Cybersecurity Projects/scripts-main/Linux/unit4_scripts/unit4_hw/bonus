@@ -1,0 +1,8 @@
+1
+command to install chkrootkit: sudo apt install chkrootkit
+
+2
+command to see documentation and instructions:man chkrootkit
+
+3
+command to run expert mode: sudo chkrootkit -x

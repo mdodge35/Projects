@@ -1,0 +1,11 @@
+1
+command to add group: sudo addgroup <groupname>
+
+2
+command to add user to engineers group: sudo usermod -aG engineers sam, sudo usermod -aG engineers joe,  sudo usermod -aG engineers amy,  sudo usermod -aG engineers sara
+
+3
+command to creat the shared folder:mkdir groupfolder
+
+4
+command to change ownership of engineers share folder to engineer group: sudo chgrp -R engineers groupfolder

@@ -1,0 +1,12 @@
+1
+command to add user account: sudo adduser sam, sudo adduser joe, sudo adduser amy, sudo adduser sara, sudo adduser admin
+
+2
+command to edit pwquality.conf file:sudo nano pwquality.conf
+updates to configuration file : changes required characters to 16 with at least 1 number and 1 symbol
+
+3
+command to set each new users password to expire in 90 days:sudo chage -M 90 sam, sudo chage -M 90 joe, sudo chage -M 90 amy, sudo chage -M 90 sara, sudo chage -M 90 admin
+
+4
+command to add admin to the sudo group: sudo usermod -aG sudo admin

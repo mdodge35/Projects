@@ -1,0 +1,11 @@
+1
+command to install lynis: sudo apt install lynis
+
+2
+command to see documentation and instructions:man lynis
+
+3
+command to run an audit: sudo lynis audit sytem
+
+
+

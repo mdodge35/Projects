@@ -1,0 +1,26 @@
+# Lynis Report
+report_version_major=1
+report_version_minor=0
+report_datetime_start=2020-10-10 21:30:50
+auditor=[Not Specified]
+lynis_version=2.6.2
+os=Linux
+os_name=Ubuntu Linux
+os_fullname=Ubuntu 18.04
+os_version=18.04
+linux_version=Ubuntu
+os_kernel_version=5.4.0
+os_kernel_version_full=5.4.0-48-generic
+hostname=UbuntuDesktop
+test_category=all
+test_group=all
+plugin_directory=/etc/lynis/plugins
+lynis_update_available=0
+suggestion[]=LYNIS|This release is more than 4 months old. Consider upgrading|-|-|
+vm=1
+vmtype=virtualbox
+container=0
+notebook=1
+systemd=1
+hostid2=b9066583dbab7ebd0e1c79f0ac1e0e2ef35a80e04550b80c74ad68f0d41c45cc
+hostid=090aba6b7c32276fa7b3b5a0394139fc059df433

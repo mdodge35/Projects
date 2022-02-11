@@ -1,0 +1,17 @@
+1 
+command to inspect permissions : ls -l or ls -lah
+command to set permissions : sudo chmod <sudo chmod u=rw,g=rw,o=rw (file)> or <sudo chmod (octal value) file>
+
+2
+command to inspect permissions : ls -l or ls -lah
+command to set permissions : sudo chmod <sudo chmod u=rw,g=rw,o=rw (file)>$
+
+3
+command to inspect permissions : ls -l or ls -lah
+command to set permissions : sudo chmod <sudo chmod u=rw,g=rw,o=rw (file)>$
+
+4
+command to inspect permissions : ls -l or ls -lah
+command to set permissions : sudo chmod <sudo chmod u=rw,g=rw,o=rw (file)>$
+
+
