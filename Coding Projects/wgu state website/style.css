@@ -1,0 +1,145 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#state_header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36pt;
+    bottom: 200px;
+    position: relative;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.main{
+    background-color: #333 ;
+    height: 870px;
+    width: auto;
+    display:block;
+    position: relative;
+    bottom:90px;
+}
+
+section{
+    background-color: rgb(255, 255, 255, 1);
+    width: 84%;
+    height: 94%;
+    top: 3%;
+    margin-left: 14%;
+    position: relative;
+}
+
+table{
+    width: 98%;
+    height: 455px;
+    margin-left: 1%;
+    position: relative;
+    table-layout: fixed;
+}
+
+table, td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 30px;
+}
+
+#table_image{
+    height: 100px;
+    width: 150px;
+    float: right;
+    position: relative;
+    right: 15px;
+}
+
+aside{
+    background-color: rgb(255, 255, 255,1);
+    width: 12%;
+    height: 94%;
+    position: absolute;
+    top: 3%;
+    left: 10px; 
+}
+
+aside input{
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#question{
+    height:300px;
+    resize: none;
+    width: 100%;
+}
+
+ol li{
+    margin-bottom:50px;
+}
+
+ul li{
+    margin-bottom:50px;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #333;
+    overflow: auto;
+    position: relative;
+    bottom: 50px;
+    height: 52px;
+    margin: 0px;
+}
+
+.navbar a{
+    float: left;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    line-height: 45px;
+}
+
+.navbar a.active{
+    background-color:#111 ;
+}
+.navbar a:hover{
+    background-color: #111;
+}
+
+@media screen and (max-width: 500px){
+    .navbar a{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    section{
+        width: 82%;
+        margin-left: 230px;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    aside{
+        width: 16%;
+    }
+}
+
+    @media screen and (max-width: 1700px){
+    aside input{
+        width: 100%;
+    }
+
+}
+
+

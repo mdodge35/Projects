@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html style="background-color: antiquewhite;">
+    <head>
+        <title>Home(State)</title>
+        <link rel = "stylesheet" href="./style.css">
+        <script type="text/javascript" src="./email.js"></script>
+    </head>
+    <div>
+        <img width="100%" height="300px"  src="./images/FL_Main.jpg" alt="White sands and clear water of a beach in Florida">
+    </div>
+    <header id="state_header">Florida</header>
+    <nav class="navbar">
+        <a href="./index.html" class="active">Home</a>
+        <a href="./city_1.html">Pensacola</a>
+        <a href="./city_2.html">Orlando</a>
+        <a href="./capital.html">Tallahassee</a>
+    </nav>
+    <main_content class="main">
+        <section>
+            <h1 style="text-align: center; padding: 15px; font-size: 60px;">Welcome To Florida!</h1>
+            <table>
+                <tr>
+                    <td>
+                        State's Flag:
+                        <img id="table_image" src="./images/florida_flag.gif"/>
+                    </td>
+                    <td>
+                        State's Fruit:
+                        <img id="table_image" src="./images/oranges_navel_oranges_bahia_0.jpg" alt="State Fruit is an Orange">
+                    </td>
+                    <td>
+                        State's Drink:
+                        <img id="table_image" src="./images/orange_juice_orange_glass.jpg" alt="State Drink is Orange Juice">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        State's Motto:<br>
+                        "In God We Trust"
+                    </td>
+                    <td>
+                        State's Nickname:<br>
+                        "The Sunshine State"
+                    </td>
+                    <td>
+                        State's Population:<br>
+                        22,144,382
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        State's Largest City:<br>
+                        Jacksonville
+                    </td>
+                    <td>
+                        State's Bird:<br>
+                        Mocking Bird
+                        <img id="table_image" src="./images/mockingbird_bird_perched_wildlife.jpg" alt="The mockingbird is the state bird">
+                    </td>
+                    <td><a href="./Work Citation.docx" download="bibliography">Click Here To Download My References!</a></td>
+                </tr>
+            </table>    
+            <footer style="text-align: center; top:20%; position: relative;"><a href="https://www.myflorida.com/" target="_blank">To Visit The Official State Website Click Here!</a></footer>
+        </section>
+        <aside>
+            <h1 style="text-align: center;">For Questions About Florida, Enter Your Email Below!</h1>
+            <form name="emailForm" action="#" style="padding: 20px;" onsubmit="validateName()" method="post">
+                <label for="fname">First Name:</label><br>
+                <input placeholder="Type Your First Name Here" type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name:</label><br>
+                <input placeholder="Type Your Last Name Here" type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label><br>
+                <input placeholder="Type Your Email Here" type="text" id="email" name="email"><br>
+                <label for="vemail">Verify Email:</label><br>
+                <input placeholder="Type Your Email Again Here" type="text" id="vemail" name="vemail"><br>
+                <label for = "question">Type Your Question Here:</label><br>
+                <textarea placeholder="Type Your Question Here" type="text" id="question" name="question"></textarea><br>
+                <button type="submit" id="submit" value="Submit" style="margin-top: 5px;">Submit</button>
+            </form>
+        </aside>
+    </main_content>
+</html>
